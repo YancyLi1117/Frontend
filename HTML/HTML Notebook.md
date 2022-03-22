@@ -18,3 +18,7 @@ image label: img+tab
 
 header footer section article aside nav
 more labels on https://www.w3schools.com/tags/default.asp
+
+### Website forms
+
+more input type attribute on https://www.w3schools.com/html/html_form_input_types.asp

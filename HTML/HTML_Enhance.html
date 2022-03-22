@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>Enhanced HTML</title>
+    </head>
+    <body>
+        <!--form     action:submit address; method:post(safe,big file),get(unsafe,see in the url)-->
+        <form action="./HTML_Basic.html" method="get">
+            <!--input text type=text-->
+            <!--hints: placeholder-->
+            <!--default value:value="value"-->
+            <!--read only:readonly-->
+            <p>name:
+                <input type="text" name="username" placeholder="input username" id="mark">
+                <input type="text" name="username" value="admin" readonly>
+            </p>
+
+            <!--password type=password-->
+            <!--hidden value="123456": the default value, can't change, pass to another page-->
+            <p>password:
+                <input type="password" name="pwd" >
+            </p>
+
+            <!--singal checkbox type=radio, value="the value inside box" name="the group"-->
+            <p>gender:
+                <input type="radio" value="male" name="gender">male
+                <input type="radio" value="female" name="gender">female
+
+            </p>
+
+            <!--multi checkbox type=checkbox, the same...-->
+            <p>hobby:
+                <input type="checkbox" value="sleep" name="hobby">sleep
+                <input type="checkbox" value="coding" name="hobby">code
+                <input type="checkbox" value="swimming" name="hobby">swim
+                <input type="checkbox" value="running" name="hobby">run
+            </p>
+
+            <!--select list type=select-->
+            <p>nationality:
+                <select name="nationality">
+                    <option value="CN">China</option>
+                    <option value="CA" selected>Canada</option>
+                    <option value="US">America</option>
+                    <option value="GB" hidden>England</option>
+                </select>
+            </p>
+
+            <!--text area-->
+            <p>respond:
+                <textarea name="text" col="10" rows="10">content</textarea>
+            </p>
+
+            <!--flie area-->
+            <p>upload file:
+                <input type="file" name="files">
+                <input type="button" value="upload" name="load">
+            </p>
+
+            <!--label for:id equal to it-->
+            <p>
+                <label for="mark">click!</label>
+                
+            </p>
+
+            <!--required: not empty-->
+            <p>required
+                <input type="text" name="name" required>
+            </p>
+
+            <!--regex verify:pattern-->
+            <p>custom email 
+                <input type="text" name="diyemail" pattern="">
+            </p>
+            <!--button
+            simple button: type=button
+            image button:type=image
+            submit button: type=submit
+            reset button: type=reset
+            -->
+            <p>
+                <input type="button" name="button1" value="click me!">
+                <input type="image" src="github.png" >
+            </p>
+            <p>
+                <input type="submit">
+                <input type="reset">
+            </p>
+            
+        </form>
+    </body>
+</html>
