@@ -5,111 +5,118 @@
         <title>Basic HTML</title>
     </head>
     <body>
-        <a name="top"></a>
-        <!-- HTML Headings -->
-        <h1>This is heading1</h1>
-        <h2>This is heading2</h2>
-        <h3>This is heading3</h3>
-        <h4>This is heading4</h4>
-        <h5>This is heading5</h5>
-        <h6>This is heading6</h6>
-        <!--HTML paragraphs, br have smaller space between the lines-->
-        <p>This is paragraph1</p>
-        <p>This is paragraph1</p>
-        This is p2 <br/>
-        This is p2 <br/>
-        <!--horizon line-->
-        <hr/>
-        <!--bolding, italics-->
-        <strong>bolding</strong> <br/>
-        <em>italics</em> <br/>
-        <!--space-->
-        space&nbsp&nbsp&nbsp&nbsp&nbspspace
-        <br/>
-        <!--special-->
-        &gt;
-        &lt;
-        &copy;
-        <br/>
-        <!--image label-->
-        <!--<image src="path" alt="text(if failed)" title="hanging text" width="" height="" -->
-        <img src="./pic1.jpg" alt="dispaly pic1" title="pic1" width="1000px">
-        <br/>
-        <img src="./pic2.jpg" alt="dispaly pic1" title="pic1" width="300px">
-        <br/>
-        <!--link-->
-        <a href="https://github.com/YancyLi1117/Frontend">Github</a>
-        <br/>
-        <!--link with pic-->
-        <a href="https://github.com/YancyLi1117/Frontend">
-            <img src="./github.png" alt="github logo" width="50px">
-        </a>
-        <br/>
-        <!--link with anchor-->
-        <a href="./HTML_Basic.html#top">Back to top</a>
-        <br/>
-        <!--link with email-->
-        <a href="mailto:y3372li@uwaterloo.ca">mail to me</a>
-        <br/>
-        <!--order list-->
-        <ol>
-            <li>Java</li>
-            <li>Python</li>
-            <li>C++/C</li>            
-            <li>R</li>            
-        </ol>
-        <hr/>
-        <!--unorder list-->
-        <ul>
-            <li>Java</li>
-            <li>Python</li>
-            <li>C++/C</li>            
-            <li>R</li>
-        </ul>
-        <hr/>
-        <!--custom list-->
-        <dl>
-            <dt>subject</dt>
-            <dd>Java</dd>
-            <dd>Python</dd>
-            <dd>C++/C</dd>
-            <dd>R</dd>
+        <header>This is our HTML tutorial</header>
+        <nav>This is the nav bar</nav>
+        <main>
+            <p name="top">Top</p>
+            <!-- HTML Headings -->
+            <h1>This is heading1</h1>
+            <h2>This is heading2</h2>
+            <h3>This is heading3</h3>
+            <h4>This is heading4</h4>
+            <h5>This is heading5</h5>
+            <h6>This is heading6</h6>
+            <!--HTML paragraphs, br have smaller space between the lines-->
+            <p>This is paragraph1</p>
+            <p>This is paragraph1</p>
+            This is p2 <br/>
+            This is p2 <br/>
+            <!--horizon line-->
+            <hr/>
+            <!--bolding, italics-->
+            <strong>bolding</strong> <br/>
+            <em>italics</em> <br/>
+            <!--space-->
+            space&nbsp&nbsp&nbsp&nbsp&nbspspace
+            <br/>
+            <!--special-->
+            &gt;
+            &lt;
+            &copy;
+            <br/>
+            <!--image label-->
+            <!--<image src="path" alt="text(if failed)" title="hanging text" width="" height="" -->
+            <img src="./pic1.jpg" alt="dispaly pic1" title="pic1" width="1000px">
+            <br/>
+            <img src="./pic2.jpg" alt="dispaly pic1" title="pic1" width="300px">
+            <br/>
+            <!--link-->
+            <a href="https://github.com/YancyLi1117/Frontend">Github</a>
+            <br/>
+            <!--link with pic-->
+            <a href="https://github.com/YancyLi1117/Frontend">
+                <img src="./github.png" alt="github logo" width="50px">
+            </a>
+            <br/>
+            <!--link with anchor-->
+            <a href="#bottom">Back to bottom</a>
+            <br/>
+            <a href="./HTML_Basic.html#top">Back to top</a>
+            <br/>
+            <!--link with email-->
+            <a href="mailto:y3372li@uwaterloo.ca">mail to me</a>
+            <br/>
+            <!--order list-->
+            <ol>
+                <li>Java</li>
+                <li>Python</li>
+                <li>C++/C</li>            
+                <li>R</li>            
+            </ol>
+            <hr/>
+            <!--unorder list-->
+            <ul>
+                <li>Java</li>
+                <li>Python</li>
+                <li>C++/C</li>            
+                <li>R</li>
+            </ul>
+            <hr/>
+            <!--custom list-->
+            <dl>
+                <dt>subject</dt>
+                <dd>Java</dd>
+                <dd>Python</dd>
+                <dd>C++/C</dd>
+                <dd>R</dd>
 
-            <dt>Time </dt>
-            <dd>Monday</dd>
-            <dd>Tuesday</dd>
-            <dd>Wednesday</dd>
-            <dd>Thursday</dd>
-           
-        </dl>
+                <dt>Time </dt>
+                <dd>Monday</dd>
+                <dd>Tuesday</dd>
+                <dd>Wednesday</dd>
+                <dd>Thursday</dd>
+            
+            </dl>
 
-        <!--table rowspan,colspan -->
-        <table bolder="1px">
-            <tr>
-                <td colspan="2">Java</td>
-                <td>Python</td>
-                
-            </tr>
-            <tr>
-                <td rowspan="2">Monday</td>
-                <td>Tuesday</td>
-                
-            </tr>
-            <tr>
-                <td>1234</td>
-                <td>1234</td>
-                <td>1234</td>
-            </tr>
-        </table>
-        <!--vedio and music player add controls, and autoplay-->
-        <video src="https://media.w3.org/2010/05/sintel/trailer.mp4" controls></video>
-        <br/>
-        <audio src="http://downsc.chinaz.net/Files/DownLoad/sound1/201906/11582.mp3" controls ></audio>
-        <br/>
-        <!--iframe inline frame,src--address-->
-        <a href="http://bilibili.com" target="hello" >jump to bilibili</a>
-        <br/>
-        <iframe src="" name="hello" frameborder="0" width="1000px" height="800px"></iframe>
+            <!--table rowspan,colspan -->
+            <table bolder="1px">
+                <tr>
+                    <td colspan="2">Java</td>
+                    <td>Python</td>
+                    
+                </tr>
+                <tr>
+                    <td rowspan="2">Monday</td>
+                    <td>Tuesday</td>
+                    
+                </tr>
+                <tr>
+                    <td>1234</td>
+                    <td>1234</td>
+                    <td>1234</td>
+                </tr>
+            </table>
+            <!--vedio and music player add controls, and autoplay-->
+            <video src="https://media.w3.org/2010/05/sintel/trailer.mp4" controls></video>
+            <br/>
+            <audio src="http://downsc.chinaz.net/Files/DownLoad/sound1/201906/11582.mp3" controls ></audio>
+            <br/>
+            <!--iframe inline frame,src--address-->
+            <a href="http://bilibili.com" target="hello" >jump to bilibili</a>
+            <br/>
+            <iframe src="" name="hello" frameborder="0" width="1000px" height="800px"></iframe>
+        </main>
+        <footer id="bottom"> This is the footer</footer>
         
     </body>
 </html>
